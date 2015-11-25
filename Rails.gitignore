@@ -40,3 +40,15 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# For Mac
+.DS_Store
+
+# For CarrierWave
+/public/uploads
+
+# Ignore Capistrano
+/Capfile
+/config/deploy.rb
+/config/deploy
+/lib/capistrano
